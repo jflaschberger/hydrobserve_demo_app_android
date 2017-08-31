@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">StrawAlert</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_logout">Abmelden</string>
+    <string name="action_newPatient">Neuer Patient</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="average_sign">Ø</string>
+
+    <!-- Login Screen -->
+    <string name="log_title">Bitte loggen Sie sich ein!</string>
+    <string name="log_user">Benutzername</string>
+    <string name="log_pw">Passwort</string>
+    <string name="log_btn">Anmelden</string>
+    <string name="log_btn_new_user">Registrieren</string>
+    <string name="log_error_msg">Bitte Benutzernamen und Passwort ausfüllen!</string>
+
+    <!-- User Registration Screen -->
+    <string name="reg_title">Bitte geben Sie Ihren Vor- und Nachnamen ein</string>
+    <string name="reg_user_name">Vorname</string>
+    <string name="reg_user_surname">Nachname</string>
+    <string name="reg_pw">Passwort</string>
+    <string name="reg_pw_wdh">Passwort wiederholen</string>
+    <string name="reg_btn">Registrieren</string>
+
+    <string name="title_activity_patient_view">PatientViewActivity</string>
+
+    <!-- Patient Registration Screen -->
+    <string name="reg_title_patient_new">Neuen Patienten anlegen</string>
+    <string name="reg_title_patient_edit">Patientendaten bearbeiten</string>
+    <string name="reg_p_name">Vorname</string>
+    <string name="reg_p_surname">Nachname</string>
+    <string name="reg_p_bday">Geburtsdatum</string>
+    <string name="reg_p_male">Männlich</string>
+    <string name="reg_p_female">Weiblich</string>
+    <string name="reg_p_enabled">Aktiviert</string>
+    <string name="reg_p_drinkvol">Trinkmenge/Tag in ml</string>
+
+    <!-- Bluetooth Low Energy Properties -->
+    <string name="ble_connected_with">Verbunden mit %1$s</string>
+    <string name="ble_disconnected">Verbindung getrennt</string>
+    <string name="ble_scanning">Suche...</string>
+    <string name="ble_connecting">Verbinden...</string>
+    <string name="ble_device_list">BLE Device List</string>
+    <string name="ble_no_devices_found">Keine Strohhalm Geräte gefunden</string>
+    <string name="ble_not_supported">Bluetooth Low Energy wird vom Gerät nicht unterstützt</string>
+    <string name="ble_starting_scan">BLE Suche startet</string>
+    <string name="ble_stopping_scan">BLE Suche beendet</string>
+    <string name="ble_scan_impossible">Suche fehlgeschlagen</string>
+    <string name="ble_written_successful">Registrierung erfolgreich</string>
+    <string name="ble_drink_event_deleted">Trinkereignis vom Gerät gelöscht</string>
+    <string name="dialogType_ChooseDevice">ChooseDevice</string>
+    <string name="dialogType_ChooseDevice_Title">Gerät für die Verbindung wählen</string>
+    <string name="dialogType_ChooseCharacteristic">ChooseCharacteristic</string>
+    <string name="dialogType_ChooseCharacteristic_Title">Zu schreibende Characteristic wählen</string>
+    <string name="dialogType_ChooseValue">ChooseValue</string>
+    <string name="dialogType_ChooseValue_Title">Zu schreibenden Wert wählen</string>
+
+    <!-- BLE Straw: Names of Characteristics -->
+    <string name="ble_getName_straw">Strohhalm</string>
+    <string name="strawService_VolumeData_name">VolumeData</string>
+    <string name="strawCharacteristic_DrunkVolume_name">DrunkVolume</string>
+    <string name="strawCharacteristic_PulseCount_name">PulseCount</string>
+    <string name="strawCharacteristic_NumberDrinkEvents_name">NumberDrinkEvents</string>
+    <string name="strawCharacteristic_PulseMultiplier_name">PulseMultiplier</string>
+    <string name="strawService_UserData_name">UserData</string>
+    <string name="strawCharacteristic_FirstName_name">FirstName</string>
+    <string name="strawCharacteristic_LastName_name">LastName</string>
+    <string name="strawCharacteristic_UserId_name">UserId</string>
+    <string name="strawCharacteristic_Gender_name">Gender</string>
+    <string name="strawService_Battery_name">Battery</string>
+    <string name="strawCharacteristic_BatteryLevel_name">BatteryLevel</string>
+
+    <!-- BLE Straw: UUIDs of Characteristics -->
+    <string name="strawService_VolumeData_uuid">08a0afea-c1ae-4613-b7dc-124c7fbcdc2a</string>
+    <string name="strawCharacteristic_DrunkVolume_uuid">9145d605-03f3-4a96-b9d6-6b330b662a39</string>
+    <string name="strawCharacteristic_PulseCount_uuid">37a537d1-9eb0-497f-b941-68bf15ad70c7</string>
+    <string name="strawCharacteristic_NumberDrinkEvents_uuid">b48137a2-1330-4535-9b81-df155cb5d1a2</string>
+    <string name="strawCharacteristic_PulseMultiplier_uuid">3a872162-3808-41b6-9d14-d51f0be23de3</string>
+    <string name="strawService_UserData_uuid">fae94b98-2753-43d2-b9e7-6860e23adcba</string>
+    <string name="strawCharacteristic_FirstName_uuid">3845b86c-aaa5-4760-b829-4138803fec9a</string>
+    <string name="strawCharacteristic_LastName_uuid">24ce452d-e1a3-4386-8de5-77eca6e7250a</string>
+    <string name="strawCharacteristic_UserId_uuid">3f97bae6-9381-4b62-b4f8-93a2866d9c56</string>
+    <string name="strawCharacteristic_Gender_uuid">906fd829-112c-4672-a2dc-74af4afeba89</string>
+    <string name="strawService_Battery_uuid">27649875-9f17-4100-b158-f6669d7797fd</string>
+    <string name="strawCharacteristic_BatteryLevel_uuid">627a3442-ffc7-40fc-8ba3-1cebdf00f0bb</string>
+
+    <!-- BLE Straw: Format Types of Characteristics -->
+    <string name="strawCharacteristic_DrunkVolume_format">FORMAT_UINT16</string>
+    <string name="strawCharacteristic_PulseCount_format">FORMAT_UINT16</string>
+    <string name="strawCharacteristic_NumberDrinkEvents_format">FORMAT_UINT16</string>
+    <string name="strawCharacteristic_PulseMultiplier_format">FORMAT_FLOAT</string>
+    <string name="strawCharacteristic_FirstName_format">FORMAT_STRING</string>
+    <string name="strawCharacteristic_LastName_format">FORMAT_STRING</string>
+    <string name="strawCharacteristic_UserId_format">FORMAT_STRING</string>
+    <string name="strawCharacteristic_Gender_format">CHAR</string>
+    <string name="strawCharacteristic_BatteryLevel_format">FORMAT_UINT8</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <!-- Synchronisierung -->
+    <string name="upload_drinkToast">Trinkereignisse wurden hochgeladen!</string>
+    <string name="upload_drinkToastdone">Trinkereignisse sind bereits hochgeladen!</string>
+    <string name="upload_patientToast">Patientendaten wurden hochgeladen!</string>
+    <string name="upload_patientToastdone">Patientendaten sind bereits hochgeladen!</string>
+    <string name="no_drinks">Keine Trinkereignisse vorhanden</string>
+    <string name="no_patients">Keine Patientendaten vorhanden</string>
+    <string name="error_download">Fehler beim Download der Daten. Versuchen Sie es später erneut!</string>
+    <string name="error_upload">Fehler beim Upload der Daten. Versuchen Sie es später erneut!</string>
+    <string name="unexpected_error">Unerwarteter Fehler! Womöglich sind Sie nicht mit dem Internet verbunden. </string>
+    <string name="JSON_error">Es ist ein Fehler bei der Synchronisierung mit dem Server aufgetreten</string>
+    <string name="server_error">Es ist ein Server-seitiger Fehler aufgetreten.</string>
+    <string name="adress_error">Server wurde nicht gefunden!</string>
+    <string name="upload_successful">Synchronisierung war erfolgreich!</string>
+
+    <!-- Login -->
+    <string name="wrong_data">Benutzername oder Passwort falsch!</string>
+    <string name="JSON_error_login">Fehler beim Login! Versuchen Sie es später erneut!</string>
+
+
+</resources>
